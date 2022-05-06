@@ -128,6 +128,8 @@ Begin
             //Param.EnableDraw := true;
             Param.IsHidden := false;
 
+            AComponent.GraphicallyInvalidate;
+
             end;
             AComponent := Iterator.NextSchObject;
         End;
